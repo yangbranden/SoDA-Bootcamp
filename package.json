@@ -2,9 +2,9 @@
   "name": "soda-bootcamp",
   "version": "1.0.0",
   "description": "SoDA website bootcamp",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm start"
   },
   "author": "Branden Yang",
   "license": "ISC",
