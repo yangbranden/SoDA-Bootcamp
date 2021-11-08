@@ -6,7 +6,7 @@ fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos`) // backticks inst
     for(const repo of repos) {
         // assign values from the GitHub API to constants
         const repoName = repo.name
-        const repoDescription = repo.description
+        const repoDescription = repo.description // i dont think this reads the readme file; remember to fill in the 'About' for each repo
         const repoURL = repo.html_url
         const repoLanguage = repo.language
 
